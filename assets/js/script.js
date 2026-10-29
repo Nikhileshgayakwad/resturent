@@ -168,3 +168,16 @@ window.addEventListener("mousemove", function (event) {
   }
 
 });
+
+
+
+/**
+ * COPYRIGHT YEAR
+ * 
+ * dynamically update copyright year
+ */
+
+const currentYearEl = document.querySelector("#current-year");
+if (currentYearEl) {
+  currentYearEl.textContent = new Date().getFullYear();
+}
